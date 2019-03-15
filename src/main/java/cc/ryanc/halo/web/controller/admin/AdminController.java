@@ -348,6 +348,11 @@ public class AdminController extends BaseController {
             post.setPostUpdate(new Date());
         }
         postService.create(post);
+        System.out.println(".....");
         return new JsonResult(ResultCodeEnum.SUCCESS.getCode());
+    }
+
+    public void test(){
+        System.out.println("你好");
     }
 }
