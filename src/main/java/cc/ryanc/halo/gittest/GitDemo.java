@@ -10,5 +10,5 @@ package cc.ryanc.halo.gittest;
 public class GitDemo {
     private String name;
     private Integer id2;
-    private String age2;
+    private String age5;
 }
